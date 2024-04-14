@@ -75,6 +75,10 @@ const LoginForm = ({ onClose }) => {
           </LoginSocialGoogle>
         </div>
       </form>
+      {/* Close button for the login form */}
+      <button className="close-button" onClick={onClose}>
+        Close
+      </button>
     </div>
   );
 };
